@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MAUIApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:local="clr-namespace:MAUIApp"
+    xmlns:pages="clr-namespace:MAUIApp.Pages"
+    Shell.FlyoutBehavior="Flyout"
+    FlyoutBackgroundColor="{StaticResource Secondary}"
+    >
+
+    <Shell.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Primary}" />
+
+    </Shell.Behaviors>
+
+    <!--<ShellContent
+        Title="The Royal Cafe"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />-->
+    <ShellContent ContentTemplate="{DataTemplate pages:OnboardingPage}"
+                  Shell.FlyoutBehavior="Disabled" Shell.FlyoutItemIsVisible="false"/>
+
+    <TabBar
+        FlyoutDisplayOptions="AsMultipleItems"
+        >
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate pages:HomePage}"
+            Route="HomePage"
+            Icon="homelight"
+        />
+        <ShellContent
+            Title="Cart"
+            ContentTemplate="{DataTemplate pages:CartPage}"
+            Route="CartPage"
+            Icon="cartlight"
+        />
+        <ShellContent
+            Title="Profile"
+            ContentTemplate="{DataTemplate pages:ProfilePage}"
+            Route="ProfilePage"
+            Icon="userlight"
+        />
+    </TabBar>
+
+    <MenuItem Text="Sign out" IconImageSource="logout" Clicked="Signout_MenuItem_Clicked"/>
+
+    <Shell.MenuItemTemplate>
+        <DataTemplate >
+            <Grid ColumnDefinitions="Auto, *" Padding="10"
+                  ColumnSpacing="15"
+                  RowDefinitions="Auto, Auto"
+                  RowSpacing="10"
+                  >
+                <Image Grid.Row="0" Grid.Column="0" Source="{Binding Icon}" HeightRequest="24" WidthRequest="24"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="{Binding Text}" TextColor="#999999" FontSize="16"/>
+                <BoxView Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1" Color="#333333" />
+            </Grid>
+            
+        </DataTemplate> 
+
+    </Shell.MenuItemTemplate>
+
+    <Shell.ItemTemplate>
+        <DataTemplate >
+            <Grid ColumnDefinitions="Auto, *" Padding="10"
+                  ColumnSpacing="15"
+                  RowDefinitions="Auto, Auto"
+                  RowSpacing="10"
+                  >
+                <Image Grid.Row="0" Grid.Column="0" Source="{Binding FlyoutIcon}" HeightRequest="24" WidthRequest="24"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="{Binding Title}" TextColor="#999999" FontSize="16"/>
+                <BoxView Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1" Color="#333333" />
+            </Grid>
+            
+        </DataTemplate> 
+
+    </Shell.ItemTemplate>
+
+    <Shell.FlyoutHeader>
+        <Border BackgroundColor="{StaticResource Primary}" Padding="10" StrokeThickness="0">
+            <VerticalStackLayout HorizontalOptions="Center" Spacing="10"
+>
+                <Image Source="newlogowhite" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" />
+                <Label Text="The Royal Cafe" TextColor="White" FontSize="18" FontAttributes="Bold"/>
+            </VerticalStackLayout>
+        </Border>
+
+    </Shell.FlyoutHeader>
+
+    <Shell.FlyoutFooter>
+        <VerticalStackLayout Padding="10">
+<Label Text="Copyright © 2024. The Royal Cafe" TextColor="#444444" HorizontalOptions="Center" FontSize="14" />
+        </VerticalStackLayout>
+
+    </Shell.FlyoutFooter>
+</Shell>
+

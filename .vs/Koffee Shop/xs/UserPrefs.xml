@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{8E941FC5-55EE-4889-8A97-09AB856F4323}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Koffee Shop/MainPage.xaml.cs">
+    <Files>
+      <File FileName="Koffee Shop/MainPage.xaml.cs" Line="12" Column="35" />
+      <File FileName="Koffee Shop/MainPage.xaml" Line="4" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Koffee Shop" expanded="True">
+            <Node name="Koffee Shop" expanded="True" selected="True">
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_4_API_33" />
+  <MonoDevelop.Ide.ItemProperties.Koffee_220Shop PreferredExecutionTarget="Android.Pixel_4_API_33" FirstBuild="True" />
+</Properties>

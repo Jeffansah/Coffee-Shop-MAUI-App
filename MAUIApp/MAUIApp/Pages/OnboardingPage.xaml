@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIApp.Pages.OnboardingPage"
+             Title="OnboardingPage"
+             xmlns:acrylic="clr-namespace:Xe.AcrylicView;assembly=Xe.AcrylicView"
+             BackgroundImageSource="coffeebackground"
+             Shell.NavBarIsVisible="False"
+             >
+               <VerticalStackLayout HorizontalOptions="Center" Padding="30,430, 30, 0">
+
+        
+            <acrylic:AcrylicView VerticalOptions="Center"  
+                Padding="0, 40,0,40"
+                EffectStyle="Custom"     
+                TintColor="Transparent"
+                TintOpacity=".1"
+                CornerRadius="20" > 
+                 <VerticalStackLayout Spacing="10">
+
+    <Label Text="The Royal Cafe" FontSize="18"
+           TextColor="White" HorizontalTextAlignment="Center"
+           />
+                <Button Padding="10, 0" WidthRequest="300"
+                        Text="Sign in" FontSize="16" ImageSource="chevronright"
+                        ContentLayout="right, 0" Clicked="Signin_Clicked"/>
+                <Button Padding="10, 0" WidthRequest="300" BackgroundColor="White" TextColor="#c59769"
+                        Text="Get started" FontSize="16" ImageSource="chevronrightbrown"
+                        ContentLayout="right, 0" Clicked="Signup_Clicked"/>
+                <!--<Button Padding="10, 0" WidthRequest="300" BackgroundColor="White" TextColor="#c59769"
+                        Text="Get started" FontSize="16" ImageSource="chevronrightbrown"
+                        ContentLayout="right, 0" Clicked="Button_Clicked"/>-->
+
+   </VerticalStackLayout>
+
+            </acrylic:AcrylicView>
+
+
+    </VerticalStackLayout>
+</ContentPage>
