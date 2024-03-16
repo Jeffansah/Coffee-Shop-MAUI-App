@@ -7,7 +7,7 @@
              BackgroundImageSource="coffeebackground"
              Shell.NavBarIsVisible="False"
              >
-               <VerticalStackLayout HorizontalOptions="Center" Padding="30,430, 30, 0">
+               <VerticalStackLayout HorizontalOptions="Center" Padding="30,480, 30, 0">
 
         
             <acrylic:AcrylicView VerticalOptions="Center"  
@@ -21,15 +21,15 @@
     <Label Text="The Royal Cafe" FontSize="18"
            TextColor="White" HorizontalTextAlignment="Center"
            />
-                <Button Padding="10, 0" WidthRequest="300"
+                <!--<Button Padding="10, 0" WidthRequest="300"
                         Text="Sign in" FontSize="16" ImageSource="chevronright"
                         ContentLayout="right, 0" Clicked="Signin_Clicked"/>
                 <Button Padding="10, 0" WidthRequest="300" BackgroundColor="White" TextColor="#c59769"
                         Text="Get started" FontSize="16" ImageSource="chevronrightbrown"
+                        ContentLayout="right, 0" Clicked="Signup_Clicked"/>-->
+                <Button x:Name="LoginBtn" SemanticProperties.Hint="Click to login" Padding="10, 0" WidthRequest="300" BackgroundColor="#c59769" TextColor="white"
+                        Text="Get started" FontSize="16" ImageSource="chevronright"
                         ContentLayout="right, 0" Clicked="Signup_Clicked"/>
-                <!--<Button Padding="10, 0" WidthRequest="300" BackgroundColor="White" TextColor="#c59769"
-                        Text="Get started" FontSize="16" ImageSource="chevronrightbrown"
-                        ContentLayout="right, 0" Clicked="Button_Clicked"/>-->
 
    </VerticalStackLayout>
 

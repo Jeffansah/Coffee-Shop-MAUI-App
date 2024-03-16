@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac/Desktop/MAUIApp/MAUIApp/MAUIApp/MAUIApp.csproj": {}
+    "/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/MAUIApp.csproj": {}
   },
   "projects": {
-    "/Users/mac/Desktop/MAUIApp/MAUIApp/MAUIApp/MAUIApp.csproj": {
+    "/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/MAUIApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Desktop/MAUIApp/MAUIApp/MAUIApp/MAUIApp.csproj",
+        "projectUniqueName": "/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/MAUIApp.csproj",
         "projectName": "MAUIApp",
-        "projectPath": "/Users/mac/Desktop/MAUIApp/MAUIApp/MAUIApp/MAUIApp.csproj",
+        "projectPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/MAUIApp.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Desktop/MAUIApp/MAUIApp/MAUIApp/obj/",
+        "outputPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -30,24 +30,24 @@
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
             "projectReferences": {
-              "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
-                "projectPath": "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj"
+              "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
+                "projectPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj"
               }
             }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
             "projectReferences": {
-              "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
-                "projectPath": "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj"
+              "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
+                "projectPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj"
               }
             }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
             "projectReferences": {
-              "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
-                "projectPath": "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj"
+              "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
+                "projectPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj"
               }
             }
           }
@@ -65,6 +65,10 @@
             "AcrylicView.Maui": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "Auth0.OidcClient.MAUI": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "CommunityToolkit.Maui": {
               "target": "Package",
@@ -199,6 +203,10 @@
               "target": "Package",
               "version": "[2.0.0, )"
             },
+            "Auth0.OidcClient.MAUI": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[6.1.0, )"
@@ -276,6 +284,10 @@
             "AcrylicView.Maui": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "Auth0.OidcClient.MAUI": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "CommunityToolkit.Maui": {
               "target": "Package",
@@ -371,14 +383,14 @@
         }
       }
     },
-    "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
+    "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj",
+        "projectUniqueName": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj",
         "projectName": "SharedMAUI.Shared",
-        "projectPath": "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj",
+        "projectPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/obj/",
+        "outputPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mac/.nuget/NuGet/NuGet.Config"

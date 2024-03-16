@@ -1,7 +1,9 @@
 ﻿namespace MAUIApp;
-
+using Auth0.OidcClient;
+using MAUIApp.Pages;
 using CommunityToolkit.Maui;
 using Xe.AcrylicView;
+using Microsoft.Extensions.Logging;
 
 public static class MauiProgram
 {
@@ -26,6 +28,17 @@ public static class MauiProgram
             .UseMauiCommunityToolkit()
             ;
 
-		return builder.Build();
+        builder.Services.AddSingleton<OnboardingPage>();
+
+        builder.Services.AddSingleton(new Auth0Client(new()
+        {
+            Domain = "dev-iyhvquwxz0pywef8.us.auth0.com",
+            ClientId = "e4UGYJQnRWejsW5urUq6fU8rGT35mPrD",
+            RedirectUri = "myapp://callback/",
+            PostLogoutRedirectUri = "myapp://callback/",
+            Scope = "openid profile email"
+        }));
+
+        return builder.Build();
 	}
 }

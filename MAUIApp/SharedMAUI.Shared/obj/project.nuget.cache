@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hK+SoVlhUQAFA1dgXx6Xokr1Jrzl6dStddAyJhLAh/xKHfZEWPRYEMA/34OfdA6OtHLgLeKnz7fhzis7QKT3pA==",
+  "dgSpecHash": "DzoVMQ1J+ZDx1ZZmPWcUrdWL6uhsvOFkhUrm344RgNqKFcGCbpGllk6+F66fEoP7Vx1kVsHfaiws+HyvfAkmbQ==",
   "success": true,
-  "projectFilePath": "/Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/microsoft.netcore.app.ref/7.0.15/microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "/Users/mac/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.15/microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
+  ],
   "logs": []
 }

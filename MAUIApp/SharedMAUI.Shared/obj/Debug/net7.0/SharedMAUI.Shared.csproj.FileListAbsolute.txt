@@ -9,3 +9,14 @@
 /Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/refint/SharedMAUI.Shared.dll
 /Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/SharedMAUI.Shared.pdb
 /Users/mac/Desktop/MAUIApp/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/ref/SharedMAUI.Shared.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/bin/Debug/net7.0/SharedMAUI.Shared.deps.json
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/bin/Debug/net7.0/SharedMAUI.Shared.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/bin/Debug/net7.0/SharedMAUI.Shared.pdb
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/SharedMAUI.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/SharedMAUI.Shared.AssemblyInfoInputs.cache
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/SharedMAUI.Shared.AssemblyInfo.cs
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/SharedMAUI.Shared.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/SharedMAUI.Shared.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/refint/SharedMAUI.Shared.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/SharedMAUI.Shared.pdb
+/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/obj/Debug/net7.0/ref/SharedMAUI.Shared.dll

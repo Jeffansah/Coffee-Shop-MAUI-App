@@ -1,21 +1,34 @@
 ﻿namespace MAUIApp.Pages;
+using Auth0.OidcClient;
 
 public partial class OnboardingPage : ContentPage
 {
-	public OnboardingPage()
-	{
-		InitializeComponent();
-	}
+    int count = 0;
 
-    
+    private readonly Auth0Client auth0Client;
 
-    private async void Signin_Clicked(System.Object sender, System.EventArgs e)
+    public OnboardingPage(Auth0Client client)
+
     {
-		await Shell.Current.GoToAsync(nameof(SignInPage));
+        InitializeComponent();
+        auth0Client = client;
     }
 
-    private async void Signup_Clicked(System.Object sender, System.EventArgs e)
+    private async void Signup_Clicked(object sender, EventArgs e)
     {
-		await Shell.Current.GoToAsync(nameof(SignUpPage));
+        var loginResult = await auth0Client.LoginAsync();
+
+        if (!loginResult.IsError)
+        {
+            // Navigate to the home page upon successful login
+            await Shell.Current.GoToAsync(nameof(SignUpPage));
+        }
+        else
+        {
+            // Handle login error if needed
+            await DisplayAlert("Error", loginResult.ErrorDescription, "OK");
+        }
     }
+
+
 }
