@@ -1,34 +1,47 @@
-﻿<Properties StartupConfiguration="{5EFDBE44-1156-4657-A2B3-4326B73170B3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_-_api_25" />
-  <MonoDevelop.Ide.ItemProperties.MAUIApp PreferredExecutionTarget="Android.pixel_-_api_25" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ApiMAUI FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MAUIApp/App.xaml.cs">
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{5EFDBE44-1156-4657-A2B3-4326B73170B3}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MAUIApp/Pages/OnboardingPage.xaml">
     <Files>
-      <File FileName="SharedMAUI.Shared/Class1.cs" Line="1" Column="1" />
-      <File FileName="MAUIApp/AppShell.xaml" Line="17" Column="22" />
-      <File FileName="MAUIApp/MauiProgram.cs" Line="1" Column="1" />
-      <File FileName="MAUIApp/App.xaml" Line="1" Column="1" />
-      <File FileName="MAUIApp/App.xaml.cs" Line="20" Column="1" />
+      <File FileName="SharedMAUI.Shared/Class1.cs" />
+      <File FileName="MAUIApp/AppShell.xaml" />
+      <File FileName="MAUIApp/MauiProgram.cs" Line="29" Column="14" />
+      <File FileName="MAUIApp/App.xaml" />
+      <File FileName="MAUIApp/App.xaml.cs" Line="13" Column="1" />
+      <File FileName="MAUIApp/Pages/HomePage.xaml" Line="1" Column="1" />
+      <File FileName="MAUIApp/Pages/OnboardingPage.xaml" Line="32" Column="52" />
+      <File FileName="MAUIApp/Pages/OnboardingPage.xaml.cs" Line="14" Column="6" />
+      <File FileName="MAUIApp/Pages/SignUpPage.xaml" Line="1" Column="1" />
+      <File FileName="MAUIApp/Pages/SignInPage.xaml" Line="15" Column="22" />
+      <File FileName="MAUIApp/Pages/SignInPage.xaml.cs" Line="15" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MAUIApp">
-            <Node name="MAUIApp" expanded="True">
+          <Node name="MAUIApp" expanded="True">
+            <Node name="MAUIApp">
               <Node name="Dependencies" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="App.xaml" expanded="True">
-                <Node name="App.xaml.cs" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="OnboardingPage.xaml" selected="True" />
+                <Node name="SignInPage.xaml" expanded="True" />
+                <Node name="SignUpPage.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="SharedMAUI.Shared" expanded="True" />
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_-_api_25" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="34.0.52" />
+  <MonoDevelop.Ide.ItemProperties.MAUIApp PreferredExecutionTarget="Android.pixel_-_api_25" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
