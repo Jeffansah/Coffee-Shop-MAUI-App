@@ -13,8 +13,18 @@
                 TintColor="#202020"
                 TintOpacity=".4"
         >
+        <VerticalStackLayout Padding="20" Spacing="5">
+            <Label Text="Good morning" FontSize="16"
+           TextColor="White" HorizontalTextAlignment="Start"/>
+            <Label Text="How are you today?" FontSize="14"
+           TextColor="{StaticResource Gray400}" HorizontalTextAlignment="Start"/>
+            <VerticalStackLayout Margin="15,0">
+                <Label HorizontalTextAlignment="Start"  Text="Find the best Coffee for you" TextColor="White"/>
 
-
+        </VerticalStackLayout>
+             
+        </VerticalStackLayout>
+   
     </acrylic:AcrylicView>
 
 </ContentPage>

@@ -7,15 +7,8 @@ public partial class OnboardingPage : ContentPage
 		InitializeComponent();
 	}
 
-    
-
-    private async void Signin_Clicked(System.Object sender, System.EventArgs e)
+    private async void Getstarted_Clicked(System.Object sender, System.EventArgs e)
     {
-		await Shell.Current.GoToAsync(nameof(SignInPage));
-    }
-
-    private async void Signup_Clicked(System.Object sender, System.EventArgs e)
-    {
-		await Shell.Current.GoToAsync(nameof(SignUpPage));
+        await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
     }
 }

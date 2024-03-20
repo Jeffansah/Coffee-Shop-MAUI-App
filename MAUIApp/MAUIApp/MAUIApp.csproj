@@ -104,12 +104,23 @@
 	  <None Remove="Resources\Images\newlogobrown.png" />
 	  <None Remove="Resources\Images\newlogowhite.png" />
 	  <None Remove="Resources\Images\logout.png" />
+	  <None Remove="Services\" />
+	  <None Remove="Resources\Images\espresso.jpg" />
+	  <None Remove="Resources\Images\americano.jpg" />
+	  <None Remove="Resources\Images\latte.jpg" />
+	  <None Remove="Resources\Images\turkishcoffee.jpg" />
+	  <None Remove="Resources\Images\flatwhite.jpg" />
+	  <None Remove="Resources\Images\machiatto.jpg" />
+	  <None Remove="Resources\Images\icedcoffee.jpg" />
+	  <None Remove="Resources\Images\cappucino.jpg" />
+	  <None Remove="Resources\Images\mocha.jpg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="Components\" />
 	  <Folder Include="Pages\" />
 	  <Folder Include="Models\" />
+	  <Folder Include="Services\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\SharedMAUI.Shared\SharedMAUI.Shared.csproj" />
@@ -152,5 +163,14 @@
 	  <BundleResource Include="Resources\Images\newlogobrown.png" />
 	  <BundleResource Include="Resources\Images\newlogowhite.png" />
 	  <BundleResource Include="Resources\Images\logout.png" />
+	  <BundleResource Include="Resources\Images\espresso.jpg" />
+	  <BundleResource Include="Resources\Images\americano.jpg" />
+	  <BundleResource Include="Resources\Images\latte.jpg" />
+	  <BundleResource Include="Resources\Images\turkishcoffee.jpg" />
+	  <BundleResource Include="Resources\Images\flatwhite.jpg" />
+	  <BundleResource Include="Resources\Images\machiatto.jpg" />
+	  <BundleResource Include="Resources\Images\icedcoffee.jpg" />
+	  <BundleResource Include="Resources\Images\cappucino.jpg" />
+	  <BundleResource Include="Resources\Images\mocha.jpg" />
 	</ItemGroup>
 </Project>
