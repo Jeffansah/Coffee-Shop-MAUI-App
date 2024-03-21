@@ -58,7 +58,7 @@ namespace MAUIApp.Services
 			new Coffee
 			{
 				Name="Cold brew",
-				Image="",
+				Image="coldbrw",
 				Price=3.00
 			}
 		};

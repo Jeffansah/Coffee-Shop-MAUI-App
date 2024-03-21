@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MAUIApp.ViewModels"
+             xmlns:models="clr-namespace:MAUIApp.Models"
              x:Class="MAUIApp.Pages.HomePage"
              Title="HomePage"
              xmlns:acrylic="clr-namespace:Xe.AcrylicView;assembly=Xe.AcrylicView"
              Shell.NavBarIsVisible="False"
              BackgroundImageSource="hero2"
+             x:DataType="vm:HomeViewModel"
              >
 
     <acrylic:AcrylicView
@@ -13,13 +16,14 @@
          TintColor="#202020"
          TintOpacity=".4"
         >
+        <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="5">
             <Label Text="Good morning" FontSize="16"
            TextColor="White" HorizontalTextAlignment="Start"/>
             <Label Text="How are you today?" FontSize="14"
            TextColor="{StaticResource Gray400}" HorizontalTextAlignment="Start"/>
             <VerticalStackLayout Margin="0,30">
-                <Label HorizontalOptions="Start" MaximumWidthRequest="250"  Text="Grab the best Coffee for you"   FontSize="34"
+                <Label HorizontalOptions="Start" MaximumWidthRequest="250"  Text="Grab the best coffee for you"   FontSize="34"
                        TextColor="White" FontAttributes="Bold"/>
             
             </VerticalStackLayout>
@@ -33,8 +37,34 @@
                 
 
             </Border>
+            <Grid ColumnDefinitions="*, *" Margin="0,30,0,0">
+                <Label Grid.Column="0" Text="Popular choices"
+                       TextColor="White" FontSize="20" FontAttributes="Bold" VerticalOptions="End"/>
+                <Label Grid.Column="1" Text="Explore more"
+                       TextColor="White" HorizontalOptions="End" VerticalOptions="End" TextDecorations="Underline"/>
+            </Grid>
+            <FlexLayout BindableLayout.ItemsSource="{Binding Coffees}" Wrap="Wrap">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate x:DataType="models:Coffee">
+                        <Border StrokeShape="RoundRectangle 10"  FlexLayout.Basis="50%"
+                                StrokeThickness="0" BackgroundColor="#242423" Padding="15" Margin="2">
+                            <Grid RowDefinitions="150, Auto, Auto, Auto" RowSpacing="5">
+                                    <Border StrokeShape="RoundRectangle 10" StrokeThickness="0">
+                                        <Image Grid.Row="0" Source="{Binding Image}" Aspect="AspectFill"  />
+                                    </Border>
+                                
+
+                            </Grid>
+
+                        </Border>
+
+                    </DataTemplate>
+
+                </BindableLayout.ItemTemplate>
+
+            </FlexLayout>
         </VerticalStackLayout>
-   
+   </ScrollView>
     </acrylic:AcrylicView>
 
 </ContentPage>
