@@ -114,6 +114,7 @@
 	  <None Remove="Resources\Images\icedcoffee.jpg" />
 	  <None Remove="Resources\Images\cappucino.jpg" />
 	  <None Remove="Resources\Images\mocha.jpg" />
+	  <None Remove="Resources\Images\search.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="ViewModels\" />
@@ -172,5 +173,6 @@
 	  <BundleResource Include="Resources\Images\icedcoffee.jpg" />
 	  <BundleResource Include="Resources\Images\cappucino.jpg" />
 	  <BundleResource Include="Resources\Images\mocha.jpg" />
+	  <BundleResource Include="Resources\Images\searchicon.png" />
 	</ItemGroup>
 </Project>

@@ -2086,3 +2086,15 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/stamp/_GenerateJavaStubs.stamp
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/stamp/_GeneratePackageManagerJava.stamp
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/americano.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/cappucino.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/espresso.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/flatwhite.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/icedcoffee.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/latte.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/machiatto.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/mocha.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/turkishcoffee.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/search.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/search.png
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/searchicon.png

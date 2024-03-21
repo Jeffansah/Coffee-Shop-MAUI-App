@@ -10,19 +10,29 @@
 
     <acrylic:AcrylicView
          EffectStyle="Custom"     
-                TintColor="#202020"
-                TintOpacity=".4"
+         TintColor="#202020"
+         TintOpacity=".4"
         >
         <VerticalStackLayout Padding="20" Spacing="5">
             <Label Text="Good morning" FontSize="16"
            TextColor="White" HorizontalTextAlignment="Start"/>
             <Label Text="How are you today?" FontSize="14"
            TextColor="{StaticResource Gray400}" HorizontalTextAlignment="Start"/>
-            <VerticalStackLayout Margin="15,0">
-                <Label HorizontalTextAlignment="Start"  Text="Find the best Coffee for you" TextColor="White"/>
+            <VerticalStackLayout Margin="0,30">
+                <Label HorizontalOptions="Start" MaximumWidthRequest="250"  Text="Grab the best Coffee for you"   FontSize="34"
+                       TextColor="White" FontAttributes="Bold"/>
+            
+            </VerticalStackLayout>
+             <Border StrokeShape="RoundRectangle 20" StrokeThickness="0"
+                      BackgroundColor="#242423" Padding="20" Stroke="{StaticResource Gray600}">
+                <HorizontalStackLayout Spacing="10">
+                    <Image Source="searchicon" WidthRequest="20" HeightRequest="20"/>
+                    <Label Text="Find Your Coffee..." TextColor="{StaticResource Gray200}"/>
 
-        </VerticalStackLayout>
-             
+                </HorizontalStackLayout>
+                
+
+            </Border>
         </VerticalStackLayout>
    
     </acrylic:AcrylicView>

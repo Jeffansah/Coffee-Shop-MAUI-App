@@ -2,6 +2,9 @@
 
 using CommunityToolkit.Maui;
 using Xe.AcrylicView;
+using MAUIApp.Services;
+using MAUIApp.ViewModels;
+using MAUIApp.Pages;
 
 public static class MauiProgram
 {
@@ -26,6 +29,15 @@ public static class MauiProgram
             .UseMauiCommunityToolkit()
             ;
 
+		AddCoffeeServices(builder.Services);
+
 		return builder.Build();
+	}
+
+	private static IServiceCollection AddCoffeeServices(IServiceCollection services)
+	{
+		services.AddSingleton<CoffeeService>();
+		services.AddSingletonWithShellRoute<HomePage, HomeViewModel>(nameof(HomePage));
+		return services;
 	}
 }
