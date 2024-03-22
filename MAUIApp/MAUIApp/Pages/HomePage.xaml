@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:vm="clr-namespace:MAUIApp.ViewModels"
              xmlns:models="clr-namespace:MAUIApp.Models"
              x:Class="MAUIApp.Pages.HomePage"
@@ -52,8 +53,18 @@
                                     <Border StrokeShape="RoundRectangle 10" StrokeThickness="0">
                                         <Image Grid.Row="0" Source="{Binding Image}" Aspect="AspectFill"  />
                                     </Border>
-                                
+                                    <Label Grid.Row="1" Text="{Binding Name}"
+                                           TextColor="White" FontSize="18" FontAttributes="Bold"/>
 
+                                    <Grid Grid.Row="2" ColumnDefinitions="*,*">
+                                        <Label Grid.Column="0"
+                                               Text="{Binding Price, StringFormat='£{0:N2}'}" TextColor="{StaticResource Gray200}"/>
+                                        <Image Grid.Column="1" Source="rightarrow" HeightRequest="20" WidthRequest="20" HorizontalOptions="End">
+                                            <Image.Behaviors>
+                                                <toolkit:IconTintColorBehavior TintColor="{StaticResource Gray200}" />
+                                            </Image.Behaviors>
+                                        </Image>
+                                    </Grid>
                             </Grid>
 
                         </Border>

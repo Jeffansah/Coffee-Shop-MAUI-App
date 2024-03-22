@@ -116,6 +116,7 @@
 	  <None Remove="Resources\Images\flatwhite.jpg" />
 	  <None Remove="Resources\Images\espresso.jpg" />
 	  <None Remove="Resources\Images\coldbrw.jpg" />
+	  <None Remove="Resources\Images\rightarrow.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="ViewModels\" />
@@ -131,7 +132,6 @@
 	  <BundleResource Include="Resources\Images\usercircle.png" />
 	  <BundleResource Include="Resources\Images\userregular.png" />
 	  <BundleResource Include="Resources\Images\trash.png" />
-	  <BundleResource Include="Resources\Images\right.png" />
 	  <BundleResource Include="Resources\Images\plus.png" />
 	  <BundleResource Include="Resources\Images\minus.png" />
 	  <BundleResource Include="Resources\Images\coffeecup.png" />
@@ -176,5 +176,6 @@
 	  <BundleResource Include="Resources\Images\flatwhite.jpg" />
 	  <BundleResource Include="Resources\Images\espresso.jpg" />
 	  <BundleResource Include="Resources\Images\coldbrw.jpg" />
+	  <BundleResource Include="Resources\Images\rightarrow.png" />
 	</ItemGroup>
 </Project>

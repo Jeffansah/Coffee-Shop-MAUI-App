@@ -2099,3 +2099,4 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/search.png
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/searchicon.png
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/coldbrw.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/rightarrow.png

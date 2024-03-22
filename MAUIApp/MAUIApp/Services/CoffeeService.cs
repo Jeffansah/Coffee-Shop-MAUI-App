@@ -68,7 +68,7 @@ namespace MAUIApp.Services
 		public IEnumerable<Coffee> GetPopularCoffees(int count = 6) => _coffees
 			.OrderBy(p => Guid.NewGuid()).Take(count);
 
-		public IEnumerable<Coffee> GetCoffees(string searchTerm) =>
+		public IEnumerable<Coffee> SearchCoffees(string searchTerm) =>
 			string.IsNullOrWhiteSpace(searchTerm) ? _coffees : _coffees.Where(p => p.Name
 			.Contains(searchTerm, StringComparison.OrdinalIgnoreCase));
 	}
