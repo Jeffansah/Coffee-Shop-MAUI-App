@@ -16,6 +16,16 @@ namespace MAUIApp.ViewModels
 		}
 
 		public ObservableCollection<Coffee> Coffees { get; set; }
+
+		[RelayCommand]
+		private async Task GoToAllCoffeesPage(bool fromSearch = false)
+		{
+			var parameters = new Dictionary<string, object>
+			{
+				[nameof(AllCoffeesViewModel.FromSearch)] = fromSearch
+			};
+			await Shell.Current.GoToAsync(nameof(AllCoffeesPage), animate: true, parameters);
+		}
 	}
 }
 

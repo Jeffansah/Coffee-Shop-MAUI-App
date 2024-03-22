@@ -1,33 +1,32 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{5EFDBE44-1156-4657-A2B3-4326B73170B3}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/ViewModels/AllCoffeesViewModel.cs" relfile="MAUIApp/ViewModels/AllCoffeesViewModel.cs" line="26" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MAUIApp/Pages/OnboardingPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MAUIApp/Pages/HomePage.xaml">
     <Files>
-      <File FileName="SharedMAUI.Shared/Class1.cs" />
-      <File FileName="MAUIApp/AppShell.xaml" />
-      <File FileName="MAUIApp/MauiProgram.cs" Line="29" Column="14" />
-      <File FileName="MAUIApp/App.xaml" />
-      <File FileName="MAUIApp/App.xaml.cs" Line="13" Column="1" />
-      <File FileName="MAUIApp/Pages/HomePage.xaml" Line="1" Column="1" />
-      <File FileName="MAUIApp/Pages/OnboardingPage.xaml" Line="32" Column="52" />
-      <File FileName="MAUIApp/Pages/OnboardingPage.xaml.cs" Line="14" Column="6" />
-      <File FileName="MAUIApp/Pages/SignUpPage.xaml" Line="1" Column="1" />
-      <File FileName="MAUIApp/Pages/SignInPage.xaml" Line="15" Column="22" />
-      <File FileName="MAUIApp/Pages/SignInPage.xaml.cs" Line="15" Column="2" />
+      <File FileName="MAUIApp/Pages/HomePage.xaml.cs" Line="13" Column="1" />
+      <File FileName="MAUIApp/Pages/AllCoffeesPage.xaml" Line="9" Column="38" />
+      <File FileName="MAUIApp/Pages/HomePage.xaml" Line="54" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MAUIApp" expanded="True">
             <Node name="MAUIApp">
-              <Node name="Dependencies" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="OnboardingPage.xaml" selected="True" />
+                <Node name="HomePage.xaml" expanded="True" selected="True" />
+                <Node name="OnboardingPage.xaml" expanded="True" />
                 <Node name="SignInPage.xaml" expanded="True" />
                 <Node name="SignUpPage.xaml" expanded="True" />
               </Node>
-              <Node name="App.xaml" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+                <Node name="Styles" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
             </Node>
             <Node name="SharedMAUI.Shared" expanded="True" />
           </Node>

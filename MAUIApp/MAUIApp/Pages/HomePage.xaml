@@ -35,14 +35,25 @@
                     <Label Text="Find Your Coffee..." TextColor="{StaticResource Gray200}"/>
 
                 </HorizontalStackLayout>
-                
+                <Border.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToAllCoffeesPageCommand}"
+                                              CommandParameter="{x:Boolean true}"/>
+
+                    </Border.GestureRecognizers>
 
             </Border>
             <Grid ColumnDefinitions="*, *" Margin="0,30,0,0">
                 <Label Grid.Column="0" Text="Popular choices"
                        TextColor="White" FontSize="20" FontAttributes="Bold" VerticalOptions="End"/>
                 <Label Grid.Column="1" Text="Explore more"
-                       TextColor="White" HorizontalOptions="End" VerticalOptions="End" TextDecorations="Underline"/>
+                       TextColor="White" HorizontalOptions="End" VerticalOptions="End" TextDecorations="Underline">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding GoToAllCoffeesPageCommand}"
+                                              CommandParameter="{x:Boolean false}"/>
+
+                        </Label.GestureRecognizers>
+
+                    </Label>
             </Grid>
             <FlexLayout BindableLayout.ItemsSource="{Binding Coffees}" Wrap="Wrap">
                 <BindableLayout.ItemTemplate>

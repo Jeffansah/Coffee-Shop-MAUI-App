@@ -1,12 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:MAUIApp.ViewModels"
+             xmlns:models="clr-namespace:MAUIApp.Models"
+             xmlns:acrylic="clr-namespace:Xe.AcrylicView;assembly=Xe.AcrylicView"
              x:Class="MAUIApp.Pages.AllCoffeesPage"
-             Title="AllCoffeesPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Coffee Choices"
+             x:DataType="vm:AllCoffeesViewModel"
+             BackgroundImageSource="hero2"
+             Shell.NavBarIsVisible="False"
+             >
+    <ContentPage.Triggers>
+        <DataTrigger TargetType="ContentPage"
+ Binding="{Binding FromSearch}" Value="True">
+            <Setter Property="Title" Value="Find your coffee" />
+        </DataTrigger>
+        
+    </ContentPage.Triggers>
+    <acrylic:AcrylicView
+         EffectStyle="Custom"     
+         TintColor="#202020"
+         TintOpacity=".4"
+        >
+        <Grid RowDefinitions="Auto, *">
+            <SearchBar x:Name="searchBar" Grid.Row="0" BackgroundColor="#242423"
+                       TextColor="White" Placeholder="Find your coffeee..."
+                       CancelButtonColor="{StaticResource Gray200}" FontSize="16"
+                       SearchCommand="{Binding SearchCoffeesCommand}"
+                       SearchCommandParameter="{Binding Source={x:Reference searchBar}, Path=Text}" TextChanged="searchBar_TextChanged"/>
+            <ScrollView Grid.Row="1" Margin="5">
+                <VerticalStackLayout>
+                    <CollectionView ItemsSource="{Binding Coffees}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="models:Coffee">
+                                <Border StrokeShape="RoundRectangle 10"  FlexLayout.Basis="50%"
+                                StrokeThickness="0" BackgroundColor="#242423" Padding="15" Margin="2">
+                            <Grid ColumnDefinitions="120, Auto, Auto, Auto" ColumnSpacing="20">
+                                    <Border StrokeShape="RoundRectangle 10" StrokeThickness="0" Grid.Column="0">
+                                        <Image Source="{Binding Image}" Aspect="AspectFill"  MaximumHeightRequest="120"/>
+                                    </Border>
+                                    <VerticalStackLayout  Grid.Column="1">
+                                            <Label Text="{Binding Name}"
+                                           TextColor="White" FontSize="18" FontAttributes="Bold"/>
+                                            <Label  VerticalOptions="End" HorizontalOptions="Start"
+                                               Text="{Binding Price, StringFormat='£{0:N2}'}" TextColor="{StaticResource Gray200}"/>
+                                            <Label Text="View more" TextColor="{StaticResource Gray200}" TextDecorations="Underline"/>
+                                        </VerticalStackLayout>
+                                    
+
+                                    
+                            </Grid>
+
+                        </Border>
+
+                            </DataTemplate>
+
+                        </CollectionView.ItemTemplate>
+
+                    </CollectionView>
+
+                </VerticalStackLayout>
+
+            </ScrollView>
+        </Grid>
+
+    </acrylic:AcrylicView>
 </ContentPage>

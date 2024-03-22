@@ -24,8 +24,6 @@ obj/Debug/net7.0-android/resizetizer/r/drawable/newlogowhite.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/espresso.jpg
 obj/Debug/net7.0-android/resizetizer/r/drawable/flatwhite.jpg
 obj/Debug/net7.0-android/resizetizer/r/drawable/coffeecup.png
-obj/Debug/net7.0-android/resizetizer/r/drawable/search.jpg
-obj/Debug/net7.0-android/resizetizer/r/drawable/search.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/minus.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/americano.jpg
 obj/Debug/net7.0-android/resizetizer/r/drawable/cross.png
@@ -45,7 +43,6 @@ obj/Debug/net7.0-android/resizetizer/r/drawable/trash.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/turkishcoffee.jpg
 obj/Debug/net7.0-android/resizetizer/r/drawable/hero3.jpg
 obj/Debug/net7.0-android/resizetizer/r/drawable/hero2.jpg
-obj/Debug/net7.0-android/resizetizer/r/drawable/right.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/hero1.jpg
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_foreground.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon.png

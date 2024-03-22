@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = MAUIApp
+build_property.ProjectDir = /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/AllCoffeesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.AllCoffeesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/AllCoffeesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/AllCoffeesPage.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/CartPage.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/DetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.DetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/DetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/DetailsPage.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/HomePage.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/MyOrdersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.MyOrdersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/MyOrdersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/MyOrdersPage.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/OnboardingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.OnboardingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/OnboardingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/OnboardingPage.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/OrdersDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.OrdersDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/OrdersDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/OrdersDetails.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/ProfilePage.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/SignInPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.SignInPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/SignInPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/SignInPage.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/SignUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.SignUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/SignUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/SignUpPage.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml

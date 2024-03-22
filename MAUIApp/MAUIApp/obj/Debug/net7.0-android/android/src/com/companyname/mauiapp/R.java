@@ -10845,19 +10845,17 @@ public final class R {
     public static final int notification_tile_bg=0x7f0700ee;
     public static final int notify_panel_notification_icon_bg=0x7f0700ef;
     public static final int plus=0x7f0700f0;
-    public static final int right=0x7f0700f1;
-    public static final int rightarrow=0x7f0700f2;
-    public static final int search=0x7f0700f3;
-    public static final int searchicon=0x7f0700f4;
-    public static final int splash=0x7f0700f5;
-    public static final int test_level_drawable=0x7f0700f6;
-    public static final int tooltip_frame_dark=0x7f0700f7;
-    public static final int tooltip_frame_light=0x7f0700f8;
-    public static final int trash=0x7f0700f9;
-    public static final int turkishcoffee=0x7f0700fa;
-    public static final int usercircle=0x7f0700fb;
-    public static final int userlight=0x7f0700fc;
-    public static final int userregular=0x7f0700fd;
+    public static final int rightarrow=0x7f0700f1;
+    public static final int searchicon=0x7f0700f2;
+    public static final int splash=0x7f0700f3;
+    public static final int test_level_drawable=0x7f0700f4;
+    public static final int tooltip_frame_dark=0x7f0700f5;
+    public static final int tooltip_frame_light=0x7f0700f6;
+    public static final int trash=0x7f0700f7;
+    public static final int turkishcoffee=0x7f0700f8;
+    public static final int usercircle=0x7f0700f9;
+    public static final int userlight=0x7f0700fa;
+    public static final int userregular=0x7f0700fb;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
