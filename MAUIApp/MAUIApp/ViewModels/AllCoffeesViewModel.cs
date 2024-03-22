@@ -26,6 +26,7 @@ namespace MAUIApp.ViewModels
 		{
 			Coffees.Clear();
 			Searching = true;
+			await Task.Delay(500);
 			foreach (var coffee in _coffeeService.SearchCoffees(searchTerm))
 			{
 				Coffees.Add(coffee);

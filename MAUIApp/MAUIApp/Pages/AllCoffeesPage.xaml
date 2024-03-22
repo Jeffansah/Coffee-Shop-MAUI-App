@@ -24,7 +24,7 @@
          TintOpacity=".4"
         >
         <Grid RowDefinitions="Auto, *">
-            <SearchBar x:Name="searchBar" Grid.Row="0" BackgroundColor="#242423"
+            <SearchBar x:Name="searchBar" Grid.Row="0" BackgroundColor="#2E2E2E"
                        TextColor="White" Placeholder="Find your coffeee..."
                        CancelButtonColor="{StaticResource Gray200}" FontSize="16"
                        SearchCommand="{Binding SearchCoffeesCommand}"
@@ -35,7 +35,7 @@
                         <CollectionView.ItemTemplate>
                             <DataTemplate x:DataType="models:Coffee">
                                 <Border StrokeShape="RoundRectangle 10"  FlexLayout.Basis="50%"
-                                StrokeThickness="0" BackgroundColor="#242423" Padding="15" Margin="2">
+                                StrokeThickness="0" BackgroundColor="#2E2E2E" Padding="15" Margin="2">
                             <Grid ColumnDefinitions="120, Auto, Auto, Auto" ColumnSpacing="20">
                                     <Border StrokeShape="RoundRectangle 10" StrokeThickness="0" Grid.Column="0">
                                         <Image Source="{Binding Image}" Aspect="AspectFill"  MaximumHeightRequest="120"/>
@@ -57,12 +57,32 @@
                             </DataTemplate>
 
                         </CollectionView.ItemTemplate>
+                        <CollectionView.EmptyView>
+                            <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                                 <BoxView HeightRequest="100" Color="Transparent" />
+                                <Label HorizontalOptions="Center" Text="Sorry, no brews found" FontSize="20"
+                                       TextColor="{StaticResource Gray200}">
+                                    <Label.Triggers>
+                                        <DataTrigger TargetType="Label" Binding="{Binding Searching}"
+                                                     Value="True">
+                                            <Setter Property="Text" Value="" />
 
+                                        </DataTrigger>
+
+                                    </Label.Triggers>
+
+                                </Label>
+                                
+                            </VerticalStackLayout>
+
+                        </CollectionView.EmptyView>
                     </CollectionView>
 
                 </VerticalStackLayout>
 
             </ScrollView>
+            <ActivityIndicator Grid.RowSpan="2" IsRunning="{Binding Searching}"
+                               HorizontalOptions="Center" VerticalOptions="Center" Color="{StaticResource Gray200}"/>
         </Grid>
 
     </acrylic:AcrylicView>

@@ -10,7 +10,17 @@ public partial class AllCoffeesPage : ContentPage
 		BindingContext = _allCoffeesViewModel;
 	}
 
-	void searchBar_TextChanged(System.Object sender, Microsoft.Maui.Controls.TextChangedEventArgs e)
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+		if (_allCoffeesViewModel.FromSearch)
+		{
+			await Task.Delay(200);
+			searchBar.Focus();
+		}
+    }
+
+    void searchBar_TextChanged(System.Object sender, Microsoft.Maui.Controls.TextChangedEventArgs e)
 	{
 		if(!string.IsNullOrEmpty(e.OldTextValue) && string.IsNullOrWhiteSpace(e.NewTextValue))
 		{
