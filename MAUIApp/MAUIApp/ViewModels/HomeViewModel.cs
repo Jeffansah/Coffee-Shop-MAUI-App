@@ -26,6 +26,17 @@ namespace MAUIApp.ViewModels
 			};
 			await Shell.Current.GoToAsync(nameof(AllCoffeesPage), animate: true, parameters);
 		}
+
+		[RelayCommand]
+		private async Task GoToDetailsPage(Coffee coffee)
+		{
+			var parameters = new Dictionary<string, object>
+			{
+				[nameof(DetailsViewModel.Coffee)] = coffee
+			};
+			await Shell.Current.GoToAsync(nameof(DetailsPage), animate: true, parameters);
+
+		}
 	}
 }
 
