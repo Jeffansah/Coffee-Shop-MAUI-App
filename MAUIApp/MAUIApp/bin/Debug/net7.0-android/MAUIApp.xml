@@ -35,9 +35,30 @@
         </member>
         <member name="T:MAUIApp.ViewModels.DetailsViewModel">
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MAUIApp.ViewModels.DetailsViewModel.Coffee">
             <inheritdoc cref="F:MAUIApp.ViewModels.DetailsViewModel._coffee"/>
+        </member>
+        <member name="F:MAUIApp.ViewModels.DetailsViewModel.addToCartCommand">
+            <summary>The backing field for <see cref="P:MAUIApp.ViewModels.DetailsViewModel.AddToCartCommand"/>.</summary>
+        </member>
+        <member name="P:MAUIApp.ViewModels.DetailsViewModel.AddToCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUIApp.ViewModels.DetailsViewModel.AddToCart"/>.</summary>
+        </member>
+        <member name="F:MAUIApp.ViewModels.DetailsViewModel.removeFromCartCommand">
+            <summary>The backing field for <see cref="P:MAUIApp.ViewModels.DetailsViewModel.RemoveFromCartCommand"/>.</summary>
+        </member>
+        <member name="P:MAUIApp.ViewModels.DetailsViewModel.RemoveFromCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUIApp.ViewModels.DetailsViewModel.RemoveFromCart"/>.</summary>
+        </member>
+        <member name="F:MAUIApp.ViewModels.DetailsViewModel.viewCartCommand">
+            <summary>The backing field for <see cref="P:MAUIApp.ViewModels.DetailsViewModel.ViewCartCommand"/>.</summary>
+        </member>
+        <member name="P:MAUIApp.ViewModels.DetailsViewModel.ViewCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUIApp.ViewModels.DetailsViewModel.ViewCart"/>.</summary>
         </member>
         <member name="T:MAUIApp.ViewModels.HomeViewModel">
             <inheritdoc/>

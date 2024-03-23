@@ -47,11 +47,11 @@
                     <Grid Grid.Row="0" Grid.Column="1" ColumnDefinitions="50,40,50" HorizontalOptions="End"
                           VerticalOptions="Center">
                         <ImageButton Grid.Column="0" Source="minus" WidthRequest="25" HeightRequest="25"
-                                     Padding="0" VerticalOptions="Center" />
+                                     Padding="0" VerticalOptions="Center" Command="{Binding RemoveFromCartCommand}"/>
                         <Label Grid.Column="1" Text="{Binding Coffee.CartQuantity}" TextColor="White"
                                VerticalOptions="Center" HorizontalOptions="Center" FontSize="23" />
                         <ImageButton Grid.Column="2" Source="plus" WidthRequest="25" HeightRequest="25"
-                                     Padding="0" VerticalOptions="Center"/>
+                                     Padding="0" VerticalOptions="Center" Command="{Binding AddToCartCommand}"/>
 
                     </Grid>
                     <Button Grid.Row="1" Grid.ColumnSpan="2" Text="View Cart"
@@ -60,6 +60,7 @@
                             Padding="80,15"
                             Margin="0,10,0,0"
                             HorizontalOptions="Center"
+                            Command="{Binding ViewCartCommand}"
                             />
                 </Grid>
             </Border>
