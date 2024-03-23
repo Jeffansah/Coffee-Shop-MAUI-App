@@ -1,12 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:MAUIApp.ViewModels"
+             xmlns:models="clr-namespace:MAUIApp.Models"
+             xmlns:acrylic="clr-namespace:Xe.AcrylicView;assembly=Xe.AcrylicView"
              x:Class="MAUIApp.Pages.DetailsPage"
-             Title="DetailsPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title=""
+             x:DataType="vm:DetailsViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundImageSource="hero2"
+             >
+    <acrylic:AcrylicView
+         EffectStyle="Custom"     
+         TintColor="#202020"
+         TintOpacity=".4"
+        >
+        <Grid>
+            <ScrollView Padding="20,20,20,0">
+                <VerticalStackLayout Spacing="15">
+                    <Border StrokeShape="RoundRectangle 30" StrokeThickness="0">
+                                        <Image Source="{Binding Coffee.Image}"  Aspect="AspectFill"  MaximumHeightRequest="280"/>
+                                    </Border>
+                   <Grid Padding="20,20,20,10" ColumnDefinitions="*,*">
+                    <Label Grid.Column="0" Text="{Binding Coffee.Name}" FontSize="22" TextColor="White" HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Label FontAttributes="Bold" Grid.Column="1" Text="{Binding Coffee.Price, StringFormat='£{0:N2}'}" FontSize="28" TextColor="{StaticResource Primary}" HorizontalOptions="End"/>
+                   </Grid>
+                   <VerticalStackLayout Spacing="5" Padding="20,0,20,0">
+                        <Label Text="Description" TextColor="White" />
+                        <Label LineHeight="1.5" Text="{Binding Coffee.Description}" TextColor="{StaticResource Gray200}" />
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+
+            </ScrollView>
+            <Border StrokeThickness="0" BackgroundColor="{StaticResource Primary}"
+                    Margin="-1" VerticalOptions="End" HeightRequest="130" Padding="15" StrokeShape="RoundRectangle 40,40,0,0"
+                    
+                    >
+               <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,*">
+                    <Label Grid.Row="0" Grid.Column="0"
+                           Text="{Binding Coffee.Amount, StringFormat='£{0:N2}'}" FontSize="20"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           />
+                    <Grid Grid.Row="0" Grid.Column="1" ColumnDefinitions="50,40,50" HorizontalOptions="End"
+                          VerticalOptions="Center">
+                        <ImageButton Grid.Column="0" Source="minus" WidthRequest="25" HeightRequest="25"
+                                     Padding="0" VerticalOptions="Center" />
+                        <Label Grid.Column="1" Text="{Binding Coffee.CartQuantity}" TextColor="White"
+                               VerticalOptions="Center" HorizontalOptions="Center" FontSize="23" />
+                        <ImageButton Grid.Column="2" Source="plus" WidthRequest="25" HeightRequest="25"
+                                     Padding="0" VerticalOptions="Center"/>
+
+                    </Grid>
+                    <Button Grid.Row="1" Grid.ColumnSpan="2" Text="View Cart"
+                            BackgroundColor="{StaticResource Secondary}"
+                            CornerRadius="20"
+                            Padding="80,15"
+                            Margin="0,10,0,0"
+                            HorizontalOptions="Center"
+                            />
+                </Grid>
+            </Border>
+            <Border Opacity="0.5" BackgroundColor="LightGray" StrokeShape="RoundRectangle 10" Padding="5"
+                    WidthRequest="40" HeightRequest="40"
+                    HorizontalOptions="Start" VerticalOptions="Start" Margin="35"
+                    >
+    <ImageButton Source="back" BackgroundColor="Transparent" Aspect="AspectFit" Scale="0.8" Clicked="ImageButton_Clicked"/>
+        </Border>
+
+        </Grid>
+
+    </acrylic:AcrylicView>
 </ContentPage>

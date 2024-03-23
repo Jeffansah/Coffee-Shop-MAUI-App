@@ -1086,6 +1086,7 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable-xxxhdpi/dotnet_bot.png
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable-xxxhdpi/splash.png
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/americano.jpg
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/back.png
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/cappucino.jpg
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/cart.png
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resizetizer/r/drawable/cartlight.png
@@ -1196,6 +1197,7 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/lp/160/jl/files.cache
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/lp/161/jl/files.cache
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/lp/162/jl/files.cache
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/R.txt
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/R.cs.flag
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/MAUIApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/MAUIApp.AssemblyInfoInputs.cache
@@ -1214,7 +1216,6 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/bin/com.companyname.mauiapp.aab
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/bin/com.companyname.mauiapp.apks
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/res/values/colors.xml
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/R.txt
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/uploadflags.txt
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/resolvedassemblies.hash
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/CommunityToolkit.Maui.Core.dll
@@ -1224,7 +1225,6 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/GoogleGson.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/Java.Interop.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/Java.Interop.pdb
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/machine.config
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/Maui.MaterialFrame.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/MAUIApp.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/MAUIApp.pdb
@@ -1259,6 +1259,7 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/Mono.Android.Export.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/Mono.Android.Export.pdb
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/Mono.Android.pdb
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/mscorlib.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/netstandard.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/Realm.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/Realm.pdb
@@ -1268,6 +1269,7 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/Sharpnado.TaskMonitor.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.AppContext.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Buffers.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Collections.Concurrent.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Collections.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Collections.Immutable.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Collections.NonGeneric.dll
@@ -1281,15 +1283,20 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Configuration.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Console.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Core.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Data.Common.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Data.DataSetExtensions.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Data.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.Contracts.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.Debug.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.DiagnosticSource.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.FileVersionInfo.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.Process.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.StackTrace.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.TextWriterTraceListener.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.Tools.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.TraceSource.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.Tracing.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Drawing.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Drawing.Primitives.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Dynamic.Runtime.dll
@@ -1340,7 +1347,9 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Numerics.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Numerics.Vectors.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.ObjectModel.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Private.CoreLib.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Private.DataContractSerialization.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Private.Uri.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Private.Xml.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Private.Xml.Linq.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Reflection.DispatchProxy.dll
@@ -1357,6 +1366,8 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Resources.Writer.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.CompilerServices.Unsafe.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.CompilerServices.VisualC.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Extensions.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Handles.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.InteropServices.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.InteropServices.JavaScript.dll
@@ -1365,6 +1376,7 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Loader.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Numerics.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Serialization.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Serialization.Formatters.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Serialization.Json.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Serialization.Primitives.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Serialization.Xml.dll
@@ -1406,6 +1418,7 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Web.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Web.HttpUtility.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Windows.dll
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Xml.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Xml.Linq.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Xml.ReaderWriter.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Xml.Serialization.dll
@@ -1570,6 +1583,7 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/AndroidManifest.xml
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/__environment__.txt
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/mono/MonoRuntimeProvider.java
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/machine.config
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/bin/mono.android.jar
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/static.flag
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/buildid.txt
@@ -1621,7 +1635,6 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/androidx/viewpager2/R.java
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/androidx/window/R.java
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/com/bumptech/glide/R.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/com/companyname/mauiapp/R.java
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/com/google/android/material/R.java
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/com/google/android/material/snackbar/Snackbar_SnackbarActionClickImplementor.java
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/com/microsoft/maui/R.java
@@ -2068,6 +2081,7 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/mono/com/google/android/material/textfield/TextInputLayout_OnEndIconChangedListenerImplementor.java
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/mono/MonoPackageManager_Resources.java
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/bin/packaged_resources
+/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/com/companyname/mauiapp/R.java
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/compressed_assemblies.x86_64.ll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/typemaps.x86_64.o
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/environment.x86_64.o
@@ -2084,65 +2098,3 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/stamp/_GenerateJavaStubs.stamp
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/stamp/_GeneratePackageManagerJava.stamp
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/stamp/_ResolveLibraryProjectImports.stamp
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/mscorlib.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Collections.Concurrent.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Data.Common.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Data.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.StackTrace.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Diagnostics.TraceSource.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Private.CoreLib.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Private.Uri.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Extensions.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Runtime.Serialization.Formatters.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/assets/System.Xml.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/androidx/appcompat/app/AlertDialog_IDialogInterfaceOnClickListenerImplementor 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/androidx/appcompat/app/AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc640a8d9a12ddbf2cf2/DeviceDisplayImplementation_Listener 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc640a8d9a12ddbf2cf2/EnergySaverBroadcastReceiver 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc640ec207abc449b2ca/ShellFlyoutRecyclerAdapter_ElementViewHolder 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc640ec207abc449b2ca/ShellFlyoutTemplatedContentRenderer 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc640ec207abc449b2ca/ShellItemRendererBase 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc640ec207abc449b2ca/ShellSearchViewAdapter_ObjectWrapper 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc640ec207abc449b2ca/ShellSearchView_ClipDrawableWrapper 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc640ec207abc449b2ca/ShellToolbarTracker 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc640ec207abc449b2ca/ShellToolbarTracker_FlyoutIconDrawerDrawable 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6413a2ffd8f229512a/RecyclerViewScrollListener_2 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64338477404e88479c/DragAndDropGestureHandler_CustomLocalStateData 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64338477404e88479c/GenericGlobalLayoutListener 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64338477404e88479c/GenericGlobalLayoutListenerImproved 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64338477404e88479c/GenericMenuClickListener 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64338477404e88479c/GradientStrokeDrawable_GradientShaderFactory 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64396a3fe5f8138e3f/KeepAliveService 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/MauiPageControl_TEditClickListener 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/StepperHandlerHolder 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/StepperHandlerManager_StepperListener 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/WebViewExtensions_JavascriptResult 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/CarouselViewwOnGlobalLayoutListener 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/CenterSnapHelper 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/EdgeSnapHelper 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/GridLayoutSpanSizeLookup 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/NongreedySnapHelper 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/RecyclerViewScrollListener_2 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/ReorderableItemsViewAdapter_2 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/SimpleViewHolder 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64338477404e88479c/DragAndDropGestureHandler 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64338477404e88479c/FormattedStringExtensions_FontSpan 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64338477404e88479c/GradientStrokeDrawable 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc64338477404e88479c/PointerGestureHandler 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc644f76a5f928842da6/RealtimeBlurView_PreDrawListener 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/MauiPickerBase 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/MauiSearchView 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/MauiSwipeRefreshLayout 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/MauiWebChromeClient 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/NavigationRootManager_ElementBasedFragment 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc6452ffdc5b34af3a0f/ScopedFragment 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645ad60f6f21d88c46/RealtimeBlurView_PreDrawListener 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/CarouselViewAdapter_2 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/CarouselViewOnScrollListener 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/EndSingleSnapHelper 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/ScrollHelper 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/SelectableViewHolder 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/SpacingItemDecoration 2.java
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/android/src/crc645d80431ce5f73f11/StartSingleSnapHelper 2.java

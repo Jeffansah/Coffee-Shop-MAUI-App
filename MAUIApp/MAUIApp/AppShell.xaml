@@ -8,10 +8,11 @@
     xmlns:pages="clr-namespace:MAUIApp.Pages"
     Shell.FlyoutBehavior="Flyout"
     FlyoutBackgroundColor="{StaticResource Secondary}"
+    Shell.TabBarIsVisible="False"
     >
 
     <Shell.Behaviors>
-        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Primary}" />
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Secondary}" />
 
     </Shell.Behaviors>
 

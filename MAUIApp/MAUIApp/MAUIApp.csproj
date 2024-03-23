@@ -117,6 +117,7 @@
 	  <None Remove="Resources\Images\espresso.jpg" />
 	  <None Remove="Resources\Images\coldbrw.jpg" />
 	  <None Remove="Resources\Images\rightarrow.png" />
+	  <None Remove="Resources\Images\back.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="ViewModels\" />
@@ -177,5 +178,6 @@
 	  <BundleResource Include="Resources\Images\espresso.jpg" />
 	  <BundleResource Include="Resources\Images\coldbrw.jpg" />
 	  <BundleResource Include="Resources\Images\rightarrow.png" />
+	  <BundleResource Include="Resources\Images\back.png" />
 	</ItemGroup>
 </Project>
