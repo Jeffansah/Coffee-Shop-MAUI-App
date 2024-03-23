@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIApp.Pages.CheckoutPage"
+             Title="Checkout"
+             xmlns:acrylic="clr-namespace:Xe.AcrylicView;assembly=Xe.AcrylicView"
+             BackgroundImageSource="enjoy"
+             Shell.NavBarIsVisible="False"
+             >
+    <VerticalStackLayout HorizontalOptions="Center" Padding="30,480, 30, 0">
+
+  <acrylic:AcrylicView VerticalOptions="Center"  
+                Padding="0, 40,0,40"
+                EffectStyle="Custom"     
+                TintColor="Transparent"
+                TintOpacity=".1"
+                CornerRadius="20" > 
+                 <VerticalStackLayout Spacing="10">
+
+    <Label Text="Thanks for your order!" FontSize="18"
+           TextColor="White" HorizontalTextAlignment="Center"
+           />
+                <Button Padding="10, 0" WidthRequest="300"
+                        Text="Go home" FontSize="16" ImageSource="chevronright"
+                        ContentLayout="right, 0" Clicked="GoHome_Clicked"/>
+        
+               
+   </VerticalStackLayout>
+
+            </acrylic:AcrylicView>
+    </VerticalStackLayout>
+</ContentPage>
+
+

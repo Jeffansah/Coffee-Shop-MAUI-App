@@ -16,10 +16,6 @@
 
     </Shell.Behaviors>
 
-    <!--<ShellContent
-        Title="The Royal Cafe"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />-->
     <ShellContent ContentTemplate="{DataTemplate pages:OnboardingPage}"
                   Shell.FlyoutBehavior="Disabled" Shell.FlyoutItemIsVisible="false"/>
 
@@ -37,12 +33,6 @@
             ContentTemplate="{DataTemplate pages:CartPage}"
             Route="CartPage"
             Icon="cartlight"
-        />
-        <ShellContent
-            Title="Profile"
-            ContentTemplate="{DataTemplate pages:ProfilePage}"
-            Route="ProfilePage"
-            Icon="userlight"
         />
     </TabBar>
 

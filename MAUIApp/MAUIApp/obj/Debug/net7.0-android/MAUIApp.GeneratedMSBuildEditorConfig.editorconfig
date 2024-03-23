@@ -38,6 +38,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.CartPage.xam
 build_metadata.AdditionalFiles.TargetPath = Pages/CartPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages/CartPage.xaml
 
+[/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/CheckoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.CheckoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/CheckoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/CheckoutPage.xaml
+
 [/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/Pages/DetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUIApp.Pages.DetailsPage.xaml

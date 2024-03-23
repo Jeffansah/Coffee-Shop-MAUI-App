@@ -70,8 +70,9 @@ namespace MAUIApp.ViewModels
 		private async Task PlaceOrder()
 		{
             Items.Clear();
+            CartCleared?.Invoke(this, EventArgs.Empty);
             RecalculateTotalAmount();
-			//Go to Checkout
+			await Shell.Current.GoToAsync(nameof(CheckoutPage), animate: true);
         }
 	}
 }
