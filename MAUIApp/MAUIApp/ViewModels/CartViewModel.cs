@@ -3,9 +3,9 @@ namespace MAUIApp.ViewModels
 {
 	public partial class CartViewModel : ObservableObject
 	{
-		public CartViewModel()
-		{
-		}
+		public event EventHandler<Coffee> CartItemRemoved;
+		public event EventHandler CartCleared;
+		public event EventHandler<Coffee> CartItemUpdated;
 
 		public ObservableCollection<Coffee> Items { get; set; } = new();
 
@@ -38,6 +38,8 @@ namespace MAUIApp.ViewModels
 				Items.Remove(item);
 				RecalculateTotalAmount();
 
+				CartItemRemoved?.Invoke(this, item);
+
 				var snackbarOptions = new SnackbarOptions
 				{
 					CornerRadius = 10
@@ -47,6 +49,7 @@ namespace MAUIApp.ViewModels
 				{
 					Items.Add(item);
 					RecalculateTotalAmount();
+					CartItemUpdated?.Invoke(this, item);
 				}, "Undo", TimeSpan.FromSeconds(5), snackbarOptions).Show();
 			}
 		}
@@ -58,6 +61,7 @@ namespace MAUIApp.ViewModels
 			{
                 Items.Clear();
                 RecalculateTotalAmount();
+				CartCleared?.Invoke(this, EventArgs.Empty);
 				await Toast.Make("Cart cleared", ToastDuration.Short).Show();
             }
 		}
