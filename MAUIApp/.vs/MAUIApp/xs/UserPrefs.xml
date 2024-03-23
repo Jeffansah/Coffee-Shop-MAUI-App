@@ -1,14 +1,15 @@
-﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{5EFDBE44-1156-4657-A2B3-4326B73170B3}|Default">
+﻿<Properties StartupConfiguration="{5EFDBE44-1156-4657-A2B3-4326B73170B3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_-_api_25" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/ViewModels/AllCoffeesViewModel.cs" relfile="MAUIApp/ViewModels/AllCoffeesViewModel.cs" line="26" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MAUIApp/Pages/HomePage.xaml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MAUIApp/Pages/CartPage.xaml">
     <Files>
-      <File FileName="MAUIApp/Pages/HomePage.xaml.cs" Line="13" Column="1" />
-      <File FileName="MAUIApp/Pages/AllCoffeesPage.xaml" Line="9" Column="38" />
-      <File FileName="MAUIApp/Pages/HomePage.xaml" Line="54" Column="52" />
+      <File FileName="MAUIApp/ViewModels/CartViewModel.cs" Line="47" Column="5" />
+      <File FileName="MAUIApp/Pages/CartPage.xaml" Line="27" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,31 +17,19 @@
           <Node name="MAUIApp" expanded="True">
             <Node name="MAUIApp">
               <Node name="Pages" expanded="True">
-                <Node name="HomePage.xaml" expanded="True" selected="True" />
-                <Node name="OnboardingPage.xaml" expanded="True" />
-                <Node name="SignInPage.xaml" expanded="True" />
+                <Node name="CartPage.xaml" expanded="True" selected="True" />
+                <Node name="DetailsPage.xaml" expanded="True" />
                 <Node name="SignUpPage.xaml" expanded="True" />
               </Node>
-              <Node name="Resources" expanded="True">
-                <Node name="Images" expanded="True" />
-                <Node name="Styles" expanded="True" />
-              </Node>
-              <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
             </Node>
             <Node name="SharedMAUI.Shared" expanded="True" />
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_-_api_25" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="34.0.52" />
   <MonoDevelop.Ide.ItemProperties.MAUIApp PreferredExecutionTarget="Android.pixel_-_api_25" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="34.0.52" />
 </Properties>

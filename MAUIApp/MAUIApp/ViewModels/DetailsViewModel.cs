@@ -4,9 +4,11 @@ namespace MAUIApp.ViewModels
 {
 	[QueryProperty(nameof(Coffee), nameof(Coffee))]
 	public partial class DetailsViewModel : ObservableObject
-	{
-		public DetailsViewModel()
+	{ 
+		private readonly CartViewModel _cartViewModel;
+		public DetailsViewModel(CartViewModel cartViewModel)
 		{
+			_cartViewModel = cartViewModel;
 		}
 
 		[ObservableProperty]
@@ -16,14 +18,17 @@ namespace MAUIApp.ViewModels
 		private void AddToCart()
 		{
 			Coffee.CartQuantity++;
-		}
+            _cartViewModel.UpdateCartItemCommand.Execute(Coffee);
 
-		[RelayCommand]
+        }
+
+        [RelayCommand]
 		private void RemoveFromCart()
 		{
 			if (Coffee.CartQuantity > 0)
 			{
 				Coffee.CartQuantity--;
+				_cartViewModel.UpdateCartItemCommand.Execute(Coffee);
 			}
 		}
 
@@ -32,7 +37,7 @@ namespace MAUIApp.ViewModels
 		{
 			if (Coffee.CartQuantity > 0)
 			{
-				// go to cart
+				await Shell.Current.GoToAsync(nameof(CartPage), animate: true);
 			}
 			else
 			{

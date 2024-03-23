@@ -46,7 +46,7 @@
         />
     </TabBar>
 
-    <MenuItem Text="Sign out" IconImageSource="logout" Clicked="Signout_MenuItem_Clicked"/>
+    
 
     <Shell.MenuItemTemplate>
         <DataTemplate >

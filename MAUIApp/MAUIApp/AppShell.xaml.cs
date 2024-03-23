@@ -18,16 +18,8 @@ public partial class AppShell : Shell
 	private void RegisterRoutes()
 	{
 
-        Routing.RegisterRoute(nameof(SignInPage), typeof(SignInPage));
-        Routing.RegisterRoute(nameof(SignUpPage), typeof(SignUpPage));
-        Routing.RegisterRoute(nameof(MyOrdersPage), typeof(MyOrdersPage));
-        Routing.RegisterRoute(nameof(OrdersDetails), typeof(OrdersDetails));
-        Routing.RegisterRoute(nameof(DetailsPage), typeof(DetailsPage));
+        Routing.RegisterRoute(nameof(CartPage), typeof(CartPage));
     }
 
-	private async void Signout_MenuItem_Clicked(object sender, EventArgs e)
-	{
-		await Shell.Current.DisplayAlert("Alert", "Signed Out", "Ok");
-	}
 }
 

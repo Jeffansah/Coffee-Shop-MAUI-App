@@ -37,9 +37,12 @@ public static class MauiProgram
 	private static IServiceCollection AddCoffeeServices(IServiceCollection services)
 	{
 		services.AddSingleton<CoffeeService>();
-		services.AddSingletonWithShellRoute<HomePage, HomeViewModel>(nameof(HomePage));
+		services.AddSingleton<HomePage>().AddSingleton<HomeViewModel>();
 		services.AddTransientWithShellRoute<AllCoffeesPage, AllCoffeesViewModel>(nameof(AllCoffeesPage));
 		services.AddTransientWithShellRoute<DetailsPage, DetailsViewModel>(nameof(DetailsPage));
+	
+		services.AddSingleton<CartViewModel>();
+		services.AddTransient<CartPage>();
 		return services;
 	}
 }

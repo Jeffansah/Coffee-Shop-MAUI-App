@@ -33,6 +33,40 @@
         <member name="P:MAUIApp.ViewModels.AllCoffeesViewModel.GoToDetailsPageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MAUIApp.ViewModels.AllCoffeesViewModel.GoToDetailsPage(MAUIApp.Models.Coffee)"/>.</summary>
         </member>
+        <member name="T:MAUIApp.ViewModels.CartViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MAUIApp.ViewModels.CartViewModel.TotalAmount">
+            <inheritdoc cref="F:MAUIApp.ViewModels.CartViewModel._totalAmount"/>
+        </member>
+        <member name="F:MAUIApp.ViewModels.CartViewModel.updateCartItemCommand">
+            <summary>The backing field for <see cref="P:MAUIApp.ViewModels.CartViewModel.UpdateCartItemCommand"/>.</summary>
+        </member>
+        <member name="P:MAUIApp.ViewModels.CartViewModel.UpdateCartItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MAUIApp.ViewModels.CartViewModel.UpdateCartItem(MAUIApp.Models.Coffee)"/>.</summary>
+        </member>
+        <member name="F:MAUIApp.ViewModels.CartViewModel.removeCartItemCommand">
+            <summary>The backing field for <see cref="P:MAUIApp.ViewModels.CartViewModel.RemoveCartItemCommand"/>.</summary>
+        </member>
+        <member name="P:MAUIApp.ViewModels.CartViewModel.RemoveCartItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MAUIApp.ViewModels.CartViewModel.RemoveCartItem(System.String)"/>.</summary>
+        </member>
+        <member name="F:MAUIApp.ViewModels.CartViewModel.clearCartCommand">
+            <summary>The backing field for <see cref="P:MAUIApp.ViewModels.CartViewModel.ClearCartCommand"/>.</summary>
+        </member>
+        <member name="P:MAUIApp.ViewModels.CartViewModel.ClearCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUIApp.ViewModels.CartViewModel.ClearCart"/>.</summary>
+        </member>
+        <member name="F:MAUIApp.ViewModels.CartViewModel.placeOrderCommand">
+            <summary>The backing field for <see cref="P:MAUIApp.ViewModels.CartViewModel.PlaceOrderCommand"/>.</summary>
+        </member>
+        <member name="P:MAUIApp.ViewModels.CartViewModel.PlaceOrderCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUIApp.ViewModels.CartViewModel.PlaceOrder"/>.</summary>
+        </member>
         <member name="T:MAUIApp.ViewModels.DetailsViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -190,6 +224,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Searching">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Searching" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TotalAmount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TotalAmount" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Coffee">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Coffee" generated properties.</summary>
         </member>
@@ -210,6 +247,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Searching">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Searching" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TotalAmount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TotalAmount" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Coffee">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Coffee" generated properties.</summary>
