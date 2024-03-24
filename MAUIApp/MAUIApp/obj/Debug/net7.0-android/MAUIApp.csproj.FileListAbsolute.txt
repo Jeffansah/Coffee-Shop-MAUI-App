@@ -1050,8 +1050,6 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/bin/Debug/net7.0-android/com.companyname.mauiapp-Signed.aab
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/bin/Debug/net7.0-android/com.companyname.mauiapp-Signed.apk
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/bin/Debug/net7.0-android/com.companyname.mauiapp-Signed.apk.idsig
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/bin/Debug/net7.0-android/SharedMAUI.Shared.dll
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/bin/Debug/net7.0-android/SharedMAUI.Shared.pdb
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/build.props
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/adb.props
@@ -1206,7 +1204,6 @@
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/MAUIApp.csproj.Fody.CopyLocal.cache
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/MAUIApp.csproj.Fody.RuntimeCopyLocal.cache
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/XamlC.stamp
-/Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/MAUIApp.csproj.CopyComplete
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/MAUIApp.dll
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/MAUIApp.pdb
 /Users/mac/Desktop/Koffee Shop/MAUIApp/MAUIApp/obj/Debug/net7.0-android/MAUIApp.genruntimeconfig.cache

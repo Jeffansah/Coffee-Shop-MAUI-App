@@ -2177,16 +2177,6 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-android33.0/android-arm": {
@@ -4305,16 +4295,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
         }
       }
     },
@@ -6435,16 +6415,6 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-android33.0/android-x64": {
@@ -8564,16 +8534,6 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-android33.0/android-x86": {
@@ -10692,16 +10652,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
         }
       }
     },
@@ -12824,16 +12774,6 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
@@ -14953,16 +14893,6 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-ios16.1": {
@@ -15767,16 +15697,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
         }
       }
     },
@@ -16745,16 +16665,6 @@
             "related": ".xml"
           }
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-ios16.1/android-arm64": {
@@ -17721,16 +17631,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
         }
       }
     },
@@ -18699,16 +18599,6 @@
             "related": ".xml"
           }
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-ios16.1/android-x86": {
@@ -19675,16 +19565,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
         }
       }
     },
@@ -20655,16 +20535,6 @@
             "related": ".xml"
           }
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
@@ -21632,16 +21502,6 @@
             "related": ".xml"
           }
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-maccatalyst16.1": {
@@ -22446,16 +22306,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
         }
       }
     },
@@ -23424,16 +23274,6 @@
             "related": ".xml"
           }
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
@@ -24400,16 +24240,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
         }
       }
     },
@@ -25378,16 +25208,6 @@
             "related": ".xml"
           }
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
@@ -26354,16 +26174,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
         }
       }
     },
@@ -27334,16 +27144,6 @@
             "related": ".xml"
           }
         }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
@@ -28310,16 +28110,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "SharedMAUI.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedMAUI.Shared.dll": {}
         }
       }
     }
@@ -33064,11 +32854,6 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
-    },
-    "SharedMAUI.Shared/1.0.0": {
-      "type": "project",
-      "path": "../SharedMAUI.Shared/SharedMAUI.Shared.csproj",
-      "msbuildProject": "../SharedMAUI.Shared/SharedMAUI.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -33082,7 +32867,6 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Realm >= 10.18.0",
-      "SharedMAUI.Shared >= 1.0.0",
       "Sharpnado.MaterialFrame.Maui >= 2.0.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
@@ -33106,7 +32890,6 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Realm >= 10.18.0",
-      "SharedMAUI.Shared >= 1.0.0",
       "Sharpnado.MaterialFrame.Maui >= 2.0.0"
     ],
     "net7.0-maccatalyst16.1": [
@@ -33119,7 +32902,6 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Realm >= 10.18.0",
-      "SharedMAUI.Shared >= 1.0.0",
       "Sharpnado.MaterialFrame.Maui >= 2.0.0"
     ]
   },
@@ -33151,27 +32933,15 @@
       "frameworks": {
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
-          "projectReferences": {
-            "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
-              "projectPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj"
-            }
-          }
+          "projectReferences": {}
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
-          "projectReferences": {
-            "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
-              "projectPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj"
-            }
-          }
+          "projectReferences": {}
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
-          "projectReferences": {
-            "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj": {
-              "projectPath": "/Users/mac/Desktop/Koffee Shop/MAUIApp/SharedMAUI.Shared/SharedMAUI.Shared.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
