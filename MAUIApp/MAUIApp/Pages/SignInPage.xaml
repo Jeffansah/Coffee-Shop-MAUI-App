@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIApp.Pages.SignInPage"
+             Title="Sign In"
+             Shell.FlyoutBehavior="Disabled"
+             >
+    <VerticalStackLayout VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource Secondary}">
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button Padding="10, 0" WidthRequest="300"
+                        Text="Sign in" FontSize="16" Clicked="Signin_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
+ 
